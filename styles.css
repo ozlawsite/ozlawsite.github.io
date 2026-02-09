@@ -300,3 +300,9 @@ footer {
   margin-top: 12px;
   font-weight: 600;
 }
+
+.contact-form button {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.05rem;
+}
