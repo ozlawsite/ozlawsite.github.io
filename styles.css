@@ -224,6 +224,15 @@ footer {
 
 .profile-photos img {
   width: 100%;
+  max-width: 260px;
+  margin: 0 auto;
+  display: block;
   border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.profile-photos .caption {
+  text-align: center;
+  margin-top: 12px;
+  font-weight: 600;
 }
