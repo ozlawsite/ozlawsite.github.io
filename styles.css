@@ -21,8 +21,8 @@ body {
 }
 
 .hero {
-  background: linear-gradient(120deg, rgba(7, 26, 47, 0.85), rgba(15, 108, 189, 0.75)),
-    url("https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80") center/cover;
+  background: linear-gradient(rgba(11, 24, 42, 0.6), rgba(11, 24, 42, 0.6)),
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80") center/cover;
   color: #fff;
   text-align: center;
   padding: 150px 20px 140px;
@@ -99,18 +99,24 @@ body {
   background: linear-gradient(135deg, var(--primary), #0d5aa7);
   color: #fff;
   box-shadow: 0 15px 40px rgba(15, 108, 189, 0.35);
+  font-weight: 700;
+  letter-spacing: 0.4px;
 }
 
 .btn-secondary {
   border: 1px solid rgba(255,255,255,0.8);
   color: #fff;
   background: transparent;
+  font-weight: 700;
+  letter-spacing: 0.4px;
 }
 
 .btn-outline {
   border: 2px solid var(--primary);
   color: var(--primary);
   background: transparent;
+  font-weight: 700;
+  letter-spacing: 0.4px;
 }
 
 .btn-primary:hover,
