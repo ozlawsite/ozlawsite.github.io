@@ -95,6 +95,15 @@ body {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
+.hero-actions .btn-primary,
+.hero-actions .btn-secondary {
+  border-radius: 999px;
+  padding: 14px 38px;
+  font-size: 1.05rem;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
+
 .btn-primary {
   background: linear-gradient(135deg, #0f6cbd, #0b4a84);
   color: #fff;
