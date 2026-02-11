@@ -244,6 +244,24 @@ main {
   margin-top: 18px;
 }
 
+.contact .cta-buttons .btn-primary,
+.contact .cta-buttons .btn-outline {
+  border-radius: 999px;
+  padding: 14px 34px;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
+
+.contact .cta-buttons .btn-primary {
+  box-shadow: 0 18px 34px rgba(15, 68, 124, 0.25);
+}
+
+.contact .cta-buttons .btn-outline {
+  border-width: 2px;
+  background: linear-gradient(180deg, rgba(15,108,189,0.08), rgba(15,108,189,0.0));
+}
+
 .contact-form {
   display: grid;
   gap: 15px;
